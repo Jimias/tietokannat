@@ -34,6 +34,7 @@ tehtävä 10: select name from airport where latitude_deg in( select min(latitud
 ![image](https://github.com/user-attachments/assets/fefa72e1-843b-4515-941b-6e13b87efa84)
 
 osio =päivityskysely harjoitukset
+
 tehtävä 1: update game 
             set  location = (select ident from airport where name = "Nottingham Airport"), co2_consumed = co2_consumed+500
             where screen_name = "Vesa";
@@ -41,6 +42,8 @@ tehtävä 1: update game
 
 
 tehtävä 2: ![image](https://github.com/user-attachments/assets/5d26fb5f-323b-44b7-be88-59078c51ac3f)
+
 tehtävä 3: delete from goal_reached;
+
 tehtävä 4: delete from game;
 
